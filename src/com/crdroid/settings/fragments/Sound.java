@@ -74,7 +74,6 @@ public class Sound extends SettingsPreferenceFragment {
         if (!TelephonyUtils.isVoiceCapable(getActivity())) {
             prefScreen.removePreference(vibCategory);
         }
-    }
 
         ContentResolver resolver = getActivity().getContentResolver();
 
@@ -95,6 +94,7 @@ public class Sound extends SettingsPreferenceFragment {
                 Settings.System.VOLUME_DIALOG_TIMEOUT, 3, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.SCREENSHOT_SHUTTER_SOUND, 1, UserHandle.USER_CURRENT);
+	Settings.System.putIntForUser(resolver,
                 Settings.System.VIBRATE_ON_CONNECT, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.VIBRATE_ON_CALLWAITING, 0, UserHandle.USER_CURRENT);
