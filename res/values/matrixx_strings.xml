@@ -96,14 +96,14 @@
     <string name="maintainer_cepheus">RDS_07</string>
     <string name="device_cepheus_desc">Cepheus (Xiaomi MI 9)</string>
 
-    <string name="maintainer_alioth">Roxor-007</string>
+    <string name="maintainer_alioth">Dark Phoxenix</string>
     <string name="device_alioth_desc">Alioth/AliothinPoco (F3/K40/Mi 11X)</string>
 
     <string name="maintainer_marble">K. Samba Siva Rao</string>
     <string name="device_marble_desc">Marble (Poco F5/Redmi Note 12 Turbo)</string>
 
     <string name="maintainer_veux">Aswin OP</string>
-    <string name="device_veux_desc">Veux/Peux (Poco X4 Pro/Redmi Note11 ProPlus 5g</string>
+    <string name="device_veux_desc">Veux/Peux (Poco X4 Pro/Redmi Note11 ProPlus 5g)</string>
 
     <string name="maintainer_sakura">Obito Svha</string>
     <string name="device_sakura_desc">Sakura (Redmi 6 Pro)</string>
